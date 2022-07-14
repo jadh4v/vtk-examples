@@ -32,6 +32,7 @@ if(NOT VTK_BINARY_DIR)
     RenderingFreeType
     RenderingGL2PSOpenGL2
     RenderingOpenGL2
+    RenderingVolumeOpenGL2
     OPTIONAL_COMPONENTS
     cli11
     jsoncpp
@@ -89,6 +90,7 @@ if (BUILD_TESTING)
     RotationsC
     RotationsD
     Shadows
+    SSAOVolume
     StripFran
     WalkCow
     WalkCowA
